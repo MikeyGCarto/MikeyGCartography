@@ -1,0 +1,135 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #222;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color:rgb(120,120,120);
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #222;
+    background-color: #222;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #222;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #222;
+    color: #222;
+    fill: #222;
+    border-color: #222;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/ducks3.jpg");
+    text-align: center;
+    padding: 3%;
+    border-radius: 3px;
+	padding-top:4.5%;
+	/* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: sans; color: black;
+}
+  h1 {
+}
+	
+}
+}
+
+.jumbotron h2 {
+    font-size: 48px;
+    font-weight: bold;
+	
+}
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #ebd122;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: sans; color: black;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: sans; color: black;
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: 'Georgia', serif;
+    background-color: #f7f1fa;
+    color: #242424;
+}
